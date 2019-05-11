@@ -1,0 +1,124 @@
+// COPY WHAT YOU NEED FROM "~bootstrap/scss/variables";
+
+// Variables
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge((
+        "100": $gray-100,
+        "200": $gray-200,
+        "300": $gray-300,
+        "400": $gray-400,
+        "500": $gray-500,
+        "600": $gray-600,
+        "700": $gray-700,
+        "800": $gray-800,
+        "900": $gray-900
+), $grays);
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #00D9FD;
+
+
+
+$colors: ();
+$colors: map-merge((
+        "blue":       $blue,
+        "indigo":     $indigo,
+        "purple":     $purple,
+        "pink":       $pink,
+        "red":        $red,
+        "orange":     $orange,
+        "yellow":     $yellow,
+        "green":      $green,
+        "teal":       $teal,
+        "cyan":       $cyan,
+        "white":      $white,
+        "gray":       $gray-600,
+        "gray-dark":  $gray-800
+), $colors);
+
+$primary:       $cyan;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $blue;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$theme-colors: ();
+$theme-colors: map-merge((
+        "primary":    $primary,
+        "secondary":  $secondary,
+        "success":    $success,
+        "info":       $info,
+        "warning":    $warning,
+        "danger":     $danger,
+        "light":      $light,
+        "dark":       $dark
+), $theme-colors);
+
+
+// Color system
+// Options
+// Spacing
+// Body
+// Settings for the `<body>` element.
+// Links
+// Style anchor elements.
+// Paragraphs
+// Grid breakpoints
+// Grid containers
+// Grid columns
+// Components
+// Fonts
+// Tables
+// Buttons + Forms
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+// Buttons
+// For each of Bootstrap's buttons, define text, background, and border color.
+// Forms
+// Form validation
+// Dropdowns
+// Dropdown menu container and contents.
+// Navs
+// Navbar
+// Pagination
+// Jumbotron
+// Cards
+// Tooltips
+// Popovers
+// Badges
+// Modals
+// Padding applied to the modal body
+// Alerts
+// Define alert colors, border radius, and padding.
+// Progress bars
+// List group
+// Image thumbnails
+// Figures
+// Breadcrumbs
+// Carousel
+// Close
+// Code
+// Printing
